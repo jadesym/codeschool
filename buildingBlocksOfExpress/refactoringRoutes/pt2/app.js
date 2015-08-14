@@ -42,4 +42,4 @@ app.get('/', function(request, response) {
 	response.sendFile(__dirname + '/public/index.html');
 });
 */
-app.listen(3000);
+app.listen(3000, '0.0.0.0');
